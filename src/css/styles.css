@@ -1,0 +1,47 @@
+/* Este archivo contiene los estilos generales para el cielo y las estrellas, asegurando que el diseño sea responsivo y visualmente atractivo. */
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: radial-gradient(circle at center, 
+        #1a1a2f 0%,
+        #0f0f1f 30%,
+        #070714 60%,
+        #000000 100%
+    );
+}
+
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(0.15px); /* Ligero ajuste del blur */
+    cursor: none; /* Ocultar el cursor por defecto */
+}
+
+#sky {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.star {
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .star {
+        width: 2px;
+        height: 2px;
+    }
+}
+
+@media (min-width: 769px) {
+    .star {
+        width: 4px;
+        height: 4px;
+    }
+}

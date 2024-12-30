@@ -1,0 +1,12 @@
+@keyframes blink {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.star {
+    animation: blink 1.5s infinite alternate;
+}
