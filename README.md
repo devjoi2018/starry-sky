@@ -1,5 +1,7 @@
 # Documentación del Proyecto: Cielo Estrellado
 
+![Cielo Estrellado Demo](/assets/starry%20sky.gif)
+
 ## Introducción
 
 Este proyecto es un experimento de aprendizaje diseñado para explorar las capacidades de HTML5 Canvas y animaciones en JavaScript. El objetivo principal fue crear una simulación visual que combina un cielo estrellado interactivo con una criatura espacial procedural, mientras se aprenden conceptos fundamentales como:
@@ -29,7 +31,7 @@ El resultado es una aplicación web que presenta dos elementos principales:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/starry-sky.git
+   git clone https://github.com/devjoi2018/starry-sky.git
    ```
 2. Navegar al directorio del proyecto:
    ```bash
